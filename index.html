@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>방문 안내 페이지 만들기</title>
+    <link rel="stylesheet" type="text/css" href="list.css">
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        #menu3 li {
+            margin-top: 5px;
+            display: inline;
+        }
+
+        #visit_info {
+            width: 750px;
+            padding-bottom: 5px;
+            border-bottom: solid 1px #cccccc;
+        }
+
+        #intro {
+            width: 700px;
+            margin: 20px;
+            padding: 10px;
+            border: solid 1px #bcd3be;
+            background-color: #f6fdf7;
+            line-height: 150%;
+
+        }
+
+        #fee {
+            width: 700px;
+            margin: 20px;
+            padding: 10px;
+            border: solid 1px #bcd3be;
+            background-color: #f6fdf7;
+        }
+
+        #traffic li {
+            list-style-image: url("bulit_green.png");
+        }
+
+        #comment {
+            width: 700px;
+            border: solid 1px #bcd3be;
+            background-color: #f6fdf7;
+            margin: 20px;
+            padding: 10px;
+            line-height: 150%;
+        }
+
+        #sights {
+            display: flex;
+            margin: 20px;
+        }
+
+        .sight {
+            width: 200px;
+            text-align: center;
+            border: 1px solid #bcd3be;
+            background-color: #f6fdf7;
+            border-radius: 15px;
+            padding: 10px;
+            margin-right: 30px;
+        }
+
+        .sight img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .sight p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .sight b {
+            font-size: 16px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="menu2">
+        <ul id="menu">
+            <li><a href="index.html">방문 안내 페이지</a></li>
+            <li><a href="page1.html">8-6</a></li>
+            <li><a href="page2.html">8-7</a></li>
+            <li><a href="page3.html">8-8</a></li>
+            <li><a href="page4.html">8-9, 8-10, 8-11</a></li>
+            <li><a href="page5.html">8-12</a></li>
+        </ul>
+        </div>
+
+    <ul id="menu3">
+        <li>동궁과 월지 소개 |</li>
+        <li>주변 볼거리 |</li>
+        <li>이용요금 |</li>
+        <li>교통안내 |</li>
+        <li>관람 유의사항 |</li>
+        <li>공지사항</li>
+        </li>
+    </ul>
+
+    <div>
+        <img src="main_image.jpg">
+    </div>
+
+    <h1 id="visit_info">+ 동궁과 월지 방문안내</h1>
+
+    <h2>1. 동궁과 월지 소개</h2>
+    <p id="intro"> 674년(문무왕 14) 경상북도 경주시 인왕동에 신라 왕궁의 별궁(別宮)으로 동궁(東宮) 안에 창건된 전궁(殿宮) 터. 
+        1963년 1월 21일 사적으로 지정되었다.
+        동궁 및 월지 유적은 1980년에 정화공사를 거쳐 신라 궁궐의 원지(苑池)로 복원되었고, 
+        3채의 누각도 발굴조사 때 출토된 목조 건물 부재와 신라시대의 다른 유적들을 참조하여 복원되었다. 
+        그밖의 건물터는 주춧돌만 정연하게 확인하여 원래의 모습을 추측할 수 있도록 정비하였다.</p>
+
+    <h2>2. 주변 볼거리</h2>
+
+    <div id="sights">
+        <div class="sight">
+            <img src="첨성대.png" alt="첨성대">
+            <b>첨성대</b>
+            <p>별을 관측하기 위하여 높이 쌓은 대(臺). 
+                신라의 제27대 임금인 선덕 여왕 때 만들어진 천문대이다. 
+                경상북도 경주에 있어 ‘경주 첨성대’라고도 부른다. 
+                지금까지 남아 있는 기상 관측소 가운데 동양에서 가장 오래된 것이며, 국보로 지정되었다.</p>
+        </div>
+        <div class="sight">
+            <img src="천마총.jpg" alt="천마총">
+            <b>천마총(대릉원)</b>
+            <p>경북 경주시 황남동 고분군(古墳群)에 속하는 제155호 고분.
+                천마총은 5세기 말에서 6세기 초에 축조된 고분으로 추정되는데 
+                금관, 금모자, 새날개 모양 관식, 금 허리띠, 금동으로 된 신발 등이 피장자가 착용한 그대로 출토되었다. 
+                지금은 이러한 것들을 볼 수 있도록 무덤 내부를 복원하여 공개하고 있다.
+            </p>
+        </div>
+        <div class="sight">
+            <img src="황리단길.jpg" alt="황리단길">
+            <b>황리단길</b>
+            <p>황리단길은 경주에서 가장 젊은 길로, 황남동과 이태원의 경리단길을 합쳐진 단어로 ‘황남동의 경리단길’이라는 뜻을 가지고 있다.
+                골목골목마다 개성 있는 가게들이 속속 들어서고 있어 경주여행에서 빼놓을 수 없는 필수코스가 되었으며,
+                인근의 첨성대, 대릉원의 관광지를 함께 둘러볼 수 있어 경주의 명소로 각광을 받고 있다.
+            </p>
+        </div>
+    </div>
+    
+
+    <h2>3. 이용요금</h2>
+    <ul id="fee">
+        <li>어른/개인 : 3,000원</li>
+        <li>어린이/(7세~12세) : 1,000원</li>
+        <li>어른/단체 : 2,400원</li>
+        <li>어린이/단체(7세~12세) : 800원</li>
+    </ul>
+
+    <h2>4. 교통안내</h2>
+    <ul id="traffic">
+        <li>버스 : 경주역에서 70번 버스를 타고 고속버스.시외버스터미널에서 하차한 뒤,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 600번 버스를 타고 동궁과 월지에서 하차.
+            <br>(소요시간 : 약 45분) </li>
+        <li>택시 : 소요시간 : 약 20분 / 요금 : 약 18,000원 </li>
+        <li>※ 주차료 무료 <br>
+            &nbsp;&nbsp;&nbsp; 주차장 만차 시 인근 황룡사 역사문화관 및 박물관 주차장 이용 가능</li>
+    </ul>
+
+    <h2>5. 관람 유의사항</h2>
+    <p id="comment">※ 이용시간: 09:00~22:00(※매표 및 입장 마감시간: 21:30까지)<br>
+    &nbsp;&nbsp;&nbsp; 음주, 흡연, 인화물질 및 취사도구, 각종 야영용품(돗자리, 캠핑의자 등) 금지<br>
+    &nbsp;&nbsp;&nbsp; 반려동물을 동행하여 입장하는 행위 금지(다만, 시작장애인의 보조견 제외)<br>
+    &nbsp;&nbsp;&nbsp; 음식물을 반입하거나 섭취하는 행위 금지(다만, 음료는 제외)<br>
+    &nbsp;&nbsp;&nbsp; 시설물 및 물품 등을 훼손하거나 훼손하려는 행위 금지<br>
+</p>
+
+</body>
+</html>
